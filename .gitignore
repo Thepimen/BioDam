@@ -1,0 +1,8 @@
+# Salidas de compilación Maven
+target/
+*.class
+
+# Archivos temporales y de ejecución
+*.log
+.DS_Store
+Thumbs.db
