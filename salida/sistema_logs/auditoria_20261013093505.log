@@ -1,0 +1,9 @@
+[2026-10-13 09:35:05.638] [INFO] Iniciando sistema de procesamiento clínico BioDAM.
+[2026-10-13 09:35:05.642] [INFO] Ruta validada correctamente contra Path Traversal: C:\Users\luisl\OneDrive\Escritorio\Programacion y proyectos\Nebrija\Programas\Nebrija-Segundo_Anio\Nebrija-Primer-Trimestre\AccesoADatos\Actividades-Entregables\BioDAM\datos\diagnosticos_2026.csv
+[2026-10-13 09:35:05.643] [INFO] Iniciando procesamiento de registros clínicos mediante Streams...
+[2026-10-13 09:35:05.661] [INFO] Análisis completado: 10 registros procesados, 5 diagnósticos activos únicos, edad media Diabetes = 60.00
+[2026-10-13 09:35:05.662] [INFO] Finalización correcta de la importación clínica.
+[2026-10-13 09:35:05.666] [INFO] Archivo movido con éxito a: salida\procesados\diagnosticos_2026.csv
+[2026-10-13 09:35:05.667] [INFO] Lanzando prueba de validación de seguridad con ruta maliciosa: datos\..\passwords.txt
+[2026-10-13 09:35:05.668] [WARN] Intento de Path Traversal detectado con la ruta: datos\..\passwords.txt
+[2026-10-13 09:35:05.670] [INFO] Ejecución completa del sistema BioDAM finalizada con éxito.

@@ -2,7 +2,20 @@
 target/
 *.class
 
-# Archivos temporales y de ejecución
-*.log
+# Archivos de configuración de IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Archivos temporales del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Permitir explícitamente la carpeta de salida y los logs de auditoría requeridos
+!salida/
+!salida/**
+
+
